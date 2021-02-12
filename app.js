@@ -9,7 +9,7 @@ const logger = require('morgan');
 const path = require('path');
 const createError  = require('http-errors');
 
-const passport = require('passport');
+const passport = require('passport'); 
 const cors = require('./configs/cors.config')
 const session = require('./configs/session.config');
 
