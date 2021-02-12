@@ -14,7 +14,7 @@ const cors = require('./configs/cors.config')
 const session = require('./configs/session.config');
 
 require('./configs/db.config');
-require('./configs/passport.config');
+require('./configs/passport.config');  
 
 const app_name = require('./package.json').name;
 const debug = require('debug')(`${app_name}:${path.basename(__filename).split('.')[0]}`);
